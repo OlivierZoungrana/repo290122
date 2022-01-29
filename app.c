@@ -2,9 +2,9 @@
 #include <unistd.h>
 int main() {
 	int i;
-	for(i=0;i<20;i++) {
+	for(i=0;i<10;i++) {
 		printf("Hello DevOps !! \n");
-		sleep(3);
+		sleep(2);
 	}
 	return 0;
 }
